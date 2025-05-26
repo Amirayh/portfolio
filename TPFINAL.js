@@ -8,7 +8,7 @@ document.querySelector('.header1').innerHTML = `
         <h1 class="titre">Amira YH  <p class="titre2">CONCEPTRICE DEVELOPPEUSE WEB</p></h1>
     </div>
       <ul class= "liste1">
-        <li class= "nav1"><a class="nav2" href="ACCUEILTPFINAL.html">Accueil</a></li>
+        <li class= "nav1"><a class="nav2" href="index.html">Accueil</a></li>
         <li class= "nav1"><a class="nav2" href="APROPOSTPFINAL.html">À propos</a></li>
         <li class= "nav1"><a class="nav2" href="PORTFOLIOTPFINAL.html">Portfolio</a></li>
         <li class= "nav1"><a class="nav2" href="CONTACTTPFINAL.html">Contact</a></li>
