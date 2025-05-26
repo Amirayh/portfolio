@@ -1,0 +1,341 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap'); /*font-family: "Julius Sans One", sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300..800;1,300..800&display=swap');/* font-family: "Faustina", serif;*/
+
+*{box-sizing: border-box;}
+
+     body{background-color: white;
+     margin: 0;
+     padding: 0; }
+
+     h1{font-size: 50px;}
+
+     h2{text-align: center;
+        font-family: "Faustina", serif;
+        font-weight: bold;
+    color: #4C1C00; }
+
+     .titre2{font-size: 25px;}
+
+     .headerD{ display: flex;
+      justify-content: space-between; /* ou center / flex-start / flex-end */
+     align-items: center;
+    float: left;
+ padding-bottom: 50px;}
+
+ .pt{color: #4C1C00;
+    font-family: "Faustina", serif;
+font-weight: bold}
+
+/*span{color: white;
+    font-family: "Julius Sans One", serif;
+background-image:;}*/
+
+.boutonpt {
+  position: relative;
+  display: inline-block;
+  width: 200px; 
+  height: 500px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.boutonpt img {
+ width: 80%;
+  height: 60%;
+  display: block;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.boutonpt span {
+  position: absolute;
+   top: 30%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  font-family: "Julius Sans One", sans-serif;
+  text-shadow: 0 0 5px black;
+  pointer-events: none;
+}
+
+.boutonpt2 {
+  position: relative;
+  display: inline-block;
+  width: 200px; 
+  height: 500px;
+  text-align: center;
+  text-decoration: none;
+  transition: transform 500ms ease-in-out;
+}
+
+.boutonpt2 img {
+  width: 80%;
+  height: 60%;
+  display: block;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.boutonpt2 span {
+  position: absolute;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  color:#4C1C00;
+  font-size: 24px;
+  font-family: "Julius Sans One", sans-serif;
+  text-shadow: 0 0 5px black;
+  pointer-events: none;
+}
+
+a{text-decoration: none;}
+
+.centre{ display: grid;
+grid-template-columns:2fr 2fr 2fr;
+align-items: center;
+text-align: center;}
+
+.moi{display: grid;
+grid-template-columns:1fr 1fr 1fr;
+align-items: center;
+gap: 5px;
+text-align: center;}
+
+.titreapropos{color: #4C1C00;
+    font-family: "Faustina", serif;
+font-weight: bold;
+background-color: #FAFAC6;
+border-radius: 20px;}
+
+.mainapropos{color:#BC8034;
+    font-family: "Faustina", serif;
+font-weight: bold}
+
+     .pres{background-color: #FAFAC6;
+    margin: 5px;
+    padding: 15px 20px;
+    border-radius: 20px;}
+
+    .boutonpt3 img{margin: 5px;
+    padding: 15px 20px;
+max-width: 100%;
+border-radius: 40px;
+transition: transform 500ms ease-in-out;}
+
+.boutonpt3 span{  position: absolute;
+  text-align: center;
+  top: 62%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  font-family: "Julius Sans One", sans-serif;
+  text-shadow: 0 0 5px black;
+  pointer-events: none;}
+
+    .titreaccueil{color: #4C1C00;
+    font-family: "Faustina", serif;
+font-weight: bold}
+
+    .mainaccueil{color:#BC8034;
+    font-family: "Faustina", serif;
+font-weight: bold}
+
+    .header1{font-family: "Julius Sans One", sans-serif;
+     font-size: 20px;
+    color: #4C1C00;
+  text-shadow: 1px 4px 5px lightgray;
+font-weight: bold}
+
+.header4{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    gap: 30px;
+}
+
+.logo .photo{
+    max-width: 130px;
+    object-fit: contain;
+}
+
+     .nav1{list-style: none;}
+
+  .nav2{text-decoration: none;       
+    color: #4C1C00;
+  text-shadow: 1px 4px 5px lightgray;
+font-size: 13px;
+font-weight: bold;}
+
+    .err {/*-webkit-text-stroke: 1px #4C1C00;*/
+   font-family: "Faustina", serif;
+   color: #4C1C00;
+ text-shadow: 1px 4px 5px lightgray;
+  text-align: center;
+  padding-top: 15%;
+  font-size: 20px;}
+
+  .btnaccueil{background-color: #FAFAC6;
+    margin: 5px;
+    padding: 15px 20px;
+    border-radius: 20px;
+text-decoration: none;
+list-style: none;
+color: #4C1C00;
+ font-family: "Faustina", serif;
+transition: transform 500ms ease-in-out;}
+.btnaccueil:hover{  transform: scale(1.10);}
+
+ .btnretportfolio{background-color: #FAFAC6;
+    margin: 5px;
+    padding: 15px 20px;
+    border-radius: 20px;
+text-decoration: none;
+list-style: none;
+color: #4C1C00;
+ font-family: "Faustina", serif;
+transition: transform 500ms ease-in-out;}
+.btnretportfolio:hover{  transform: scale(1.10);}
+
+ .erreur{margin-top: 20px;}
+ .erreur2{margin-top: 20px;}
+
+
+/*img{ width: 100px;
+border-radius: 10%;}*/
+
+.imgport{height: 10%; ;
+    width: 50%; ;
+object-fit: cover;
+gap: 20px;}
+
+form{display: flex;
+     align-items: center;
+}
+
+contact{display:grid;grid-template-columns: 1fr ;}
+
+input{background-color: #FAFAC6;
+border-radius: 20px;
+ margin: 5px;
+    padding: 15px 20px;}
+
+textarea{background-color: #FAFAC6;
+border-radius: 20px;
+ margin: 5px;
+    padding: 15px 20px;}
+
+button{background-color: #FAFAC6;
+    margin: 5px;
+    padding: 15px 20px;
+    border-radius: 20px;
+text-decoration: none;
+list-style: none;
+color: #4C1C00;
+ font-family: "Faustina", serif;}
+
+footer{color: #4C1C00;
+font-weight: bold;
+font-family: "Faustina", serif;
+text-align: center;
+align-items: center;
+display: grid;grid-template-columns: 1fr 2fr;}
+
+.footerD{width: 50%;
+border-radius: 10%}
+
+.footerM{display: grid;grid-template-columns: 5fr 3fr;
+    align-items: center;
+justify-content: center;
+text-align: center;}
+
+.icon-footer{width: 20px;
+border-radius: 10%;
+float: right;}
+
+.projets{display: grid;grid-template-columns:repeat(5,1fr);
+height: 10%; ;
+    width: 10%; ;
+object-fit: cover;
+gap: 10px;}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+/* === MEDIA QUERIES === */
+
+/* mobiles */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .header4 {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .logo {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .centre, .moi, .projets {
+    grid-template-columns: 1fr;
+  }
+
+  .boutonpt, .boutonpt2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .nav1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .footerD {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  footer {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  input, textarea, button {
+    width: 100%;
+  }
+}
+
+/* Tablettes */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .centre, .moi {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .projets {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .header4 {
+    grid-template-columns: 2fr 1fr;
+  }
+}
